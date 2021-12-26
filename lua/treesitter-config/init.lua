@@ -20,6 +20,10 @@ treesitter.setup {
         enable = true, 
         additional_vim_regex_highlighting = false 
     },
+    indent ={
+        enable = true
+    }
+    ,
      refactor = {
      highlight_definitions = { enable = true },
      smart_rename = {

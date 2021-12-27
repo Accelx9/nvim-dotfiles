@@ -49,5 +49,8 @@ return require'packer'.startup(function()
     use 'L3MON4D3/LuaSnip' -- More Snippets
     use 'onsails/lspkind-nvim' -- More Snippets
     use "rafamadriz/friendly-snippets" -- More Snippets
-
+    
+    -- Formatting
+    use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+    use 'jose-elias-alvarez/null-ls.nvim'
 end)

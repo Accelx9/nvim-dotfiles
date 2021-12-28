@@ -4,21 +4,18 @@ return require'packer'.startup(function()
     use 'nekonako/xresources-nvim'
     use 'mangeshrex/uwu.vim'
     use 'RRethy/nvim-base16' 
+    use 'ray-x/material_plus.nvim'
+    use 'navarasu/onedark.nvim'
 
-    -- Icons
-    use {'kyazdani42/nvim-web-devicons',
-        config = function()
-				require("nvim-web-devicons").setup({
-					default = true,
-				})
-		end,
-    }
-    
     -- Plugin installer
     use 'wbthomason/packer.nvim'
 
     -- Tree and navigation
-    use 'kyazdani42/nvim-tree.lua'
+    use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icon
+    }}
     use 'christoomey/vim-tmux-navigator'
 
     -- Telescope
@@ -53,4 +50,11 @@ return require'packer'.startup(function()
     -- Formatting
     use 'jose-elias-alvarez/nvim-lsp-ts-utils'
     use 'jose-elias-alvarez/null-ls.nvim'
+
+    -- Icons
+    use 'kyazdani42/nvim-web-devicons'
+
+    -- Colorizer
+    use 'norcalli/nvim-colorizer.lua'
+        
 end)

@@ -1,7 +1,6 @@
 local set = vim.opt
 
 vim.notify = require("notify")
-
 set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
@@ -17,8 +16,8 @@ set.splitbelow = true
 set.splitright = true
 set.wrap = false
 set.scrolloff = 5
-set.fileencoding = 'utf-8'
-
+set.fileencoding = 'UTF-8'
+set.encoding = 'UTF-8'
 
 
 
@@ -28,3 +27,5 @@ set.number = true
 set.autoindent = true
 
 set.hidden = true
+
+

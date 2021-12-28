@@ -57,4 +57,14 @@ return require'packer'.startup(function()
     -- Colorizer
     use 'norcalli/nvim-colorizer.lua'
         
+    -- Git decorations
+    use {
+    'lewis6991/gitsigns.nvim',
+     requires = {
+         'nvim-lua/plenary.nvim'
+    },
+  config = function()
+    require('gitsigns').setup({current_line_blame = true})
+  end
+     }
 end)

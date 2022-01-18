@@ -22,8 +22,10 @@ treesitter.setup {
     },
     indent ={
         enable = true
-    }
-    ,
+    },
+    matchup ={
+        enable = true
+    },
      refactor = {
      highlight_definitions = { enable = true },
      smart_rename = {

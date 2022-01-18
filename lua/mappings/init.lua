@@ -7,7 +7,7 @@ map('n', '<leader>t', ':NvimTreeToggle<CR>', opts)
 map('n', '<leader>w', ':w<CR>', opts)
 map('n', '<leader>q', ':q<CR>', opts)
 
-
+vim.api.nvim_set_keymap('n', '<silent>', '<RightMouse><cmd> :GuiShowContextMenu()<CR>', { noremap=true, silent=true }) 
 
 -- Barbar mappings
 --

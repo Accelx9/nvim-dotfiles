@@ -1,17 +1,21 @@
 --require('onedarkpro').load()
--- 131a1c
+-- 131a1c #ef596f
 local onedarkpro = require('onedarkpro')
 onedarkpro.setup({
-    colors ={
-        onedark = {
-            bg = "#0A0E12", 
-            red = "#ef596f",
-            green = "#89ca78",
-            cyan = "#2bbac5",
-            purple = "#d55fde",
+ -- Change the "hint" color to the "orange" color, and make the "error" color bright red
+  colors = {hint = "orange", error = "#ff0000",
+--        bg = "#131A1C",
+        red = "#ef596f",
+        green = "#89ca78",
+      cyan = "#2bbac5",
+      blue = "#61afef",
+      purple = "#d55fde",
+syntax ={
+
+comment = "#55B4C0"
         },
-    cursorline = "#fff"
-    },
+
+        },
         styles = {
   comments = "italic",
   functions = "italic",
@@ -28,6 +32,7 @@ onedarkpro.setup({
 hlgroups = {
   Comment = { fg = '#fff' ,bg = '#000', style = "bold,italic" }, -- 2
 },
+
 })
 onedarkpro.load()
 --require('xresources')

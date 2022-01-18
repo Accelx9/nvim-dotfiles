@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  dark2 = {
+    loaded = true,
+    path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dark2",
+    url = "https://github.com/ful1e5/onedark.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -205,20 +210,15 @@ _G.packer_plugins = {
     path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["uwu.vim"] = {
+  ["vim-matchup"] = {
     loaded = true,
-    path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\uwu.vim",
-    url = "https://github.com/mangeshrex/uwu.vim"
+    path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-matchup",
+    url = "https://github.com/andymass/vim-matchup"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
-  },
-  ["xresources-nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\HP\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\xresources-nvim",
-    url = "https://github.com/nekonako/xresources-nvim"
   }
 }
 

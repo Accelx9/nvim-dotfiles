@@ -1,0 +1,10 @@
+~\AppData\Local\nvim\..
+  .git
+  ✗ lua
+  ✗ plugin
+   .gitignore
+   ★ .gvimrc
+   ★ ginit.vim
+   ✗ init.lua
+  README.md
+   test.js

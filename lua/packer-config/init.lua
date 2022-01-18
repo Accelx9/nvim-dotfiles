@@ -1,12 +1,10 @@
 return require'packer'.startup(function()
     -- Themes 
     use 'olimorris/onedarkpro.nvim'
-    use 'nekonako/xresources-nvim'
-    use 'mangeshrex/uwu.vim'
     use 'RRethy/nvim-base16' 
     use 'ray-x/material_plus.nvim'
     use 'navarasu/onedark.nvim'
-
+    use  {'ful1e5/onedark.nvim', as='dark2'}
     -- Plugin installer
     use 'wbthomason/packer.nvim'
 
@@ -67,4 +65,6 @@ return require'packer'.startup(function()
     require('gitsigns').setup({current_line_blame = true})
   end
      }
+    -- Bracket paring
+     use 'andymass/vim-matchup'
 end)
